@@ -1,0 +1,66 @@
+/*responsive design*/
+@media only screen and (max-device-width: 980px){
+    #header {
+        position: static;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #logo {
+        width: 25%;
+        margin-left: 3%;
+        position: relative;
+    }
+
+    #nav {
+        width: 23%;
+        position: relative;
+        float: right;
+        margin-right: 3%;
+    }
+
+    #content{
+        float: none;
+        width: 50%;
+        margin: 2% 3%;
+    }
+
+    input {
+        margin-top: 2px;
+        width: 100%;
+        height: 20px;
+    }
+
+    textarea {
+        margin-top: 2px;
+        width: 100%;
+        height: 100px;
+    }
+
+    .flex-container {
+        width: 100%;
+    }
+
+    .image-container {
+        width: 45%;
+    }
+
+    .pic {
+        margin-top: 5px;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .image-text {
+        background-color: #4aaaa5;
+        width: 100%;
+        height: auto;
+        top: 70%;
+        padding: 10px 0;
+        position: absolute;
+    }
+    h1 {
+        padding-top: 5px;
+    }
+}
